@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dulbrich-familysearch-mcp-badge.png)](https://mseep.ai/app/dulbrich-familysearch-mcp)
+
 # FamilySearch MCP Server
 
 This is a Model Context Protocol (MCP) server for FamilySearch APIs. It allows AI tools like Claude or Cursor to interact with FamilySearch's family history data directly.
