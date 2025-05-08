@@ -1,5 +1,9 @@
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dulbrich-familysearch-mcp-badge.png)](https://mseep.ai/app/dulbrich-familysearch-mcp)
 
+<a href="https://glama.ai/mcp/servers/@dulbrich/familysearch-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@dulbrich/familysearch-mcp/badge" alt="FamilySearch Server MCP server" />
+</a>
+
 # FamilySearch MCP Server
 
 This is a Model Context Protocol (MCP) server for FamilySearch APIs. It allows AI tools like Claude or Cursor to interact with FamilySearch's family history data directly.
@@ -113,4 +117,4 @@ Your FamilySearch credentials are stored locally on your machine in `~/.familyse
 
 ## License
 
-ISC 
+ISC
