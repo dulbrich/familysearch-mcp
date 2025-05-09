@@ -1,0 +1,37 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - clientId
+      - username
+      - password
+    properties:
+      clientId:
+        type: string
+        description: FamilySearch API Client ID
+      username:
+        type: string
+        description: FamilySearch username for authentication
+      password:
+        type: string
+        description: FamilySearch password for authentication
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'node',
+      args: ['./build/index.js'],
+      env: {
+        FAMILYSEARCH_CLIENT_ID: config.clientId,
+        FAMILYSEARCH_USERNAME: config.username,
+        FAMILYSEARCH_PASSWORD: config.password
+      }
+    })
+  exampleConfig:
+    clientId: YOUR_CLIENT_ID_HERE
+    username: your_username
+    password: your_password

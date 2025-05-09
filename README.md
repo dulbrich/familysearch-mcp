@@ -1,6 +1,7 @@
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dulbrich-familysearch-mcp-badge.png)](https://mseep.ai/app/dulbrich-familysearch-mcp)
 
 # FamilySearch MCP Server
+[![smithery badge](https://smithery.ai/badge/@dulbrich/familysearch-mcp)](https://smithery.ai/server/@dulbrich/familysearch-mcp)
 
 This is a Model Context Protocol (MCP) server for FamilySearch APIs. It allows AI tools like Claude or Cursor to interact with FamilySearch's family history data directly.
 
@@ -19,6 +20,16 @@ This is a Model Context Protocol (MCP) server for FamilySearch APIs. It allows A
 - A FamilySearch user account with access to Family Tree data
 
 ## Installation
+
+### Installing via Smithery
+
+To install FamilySearch MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@dulbrich/familysearch-mcp):
+
+```bash
+npx -y @smithery/cli install @dulbrich/familysearch-mcp --client claude
+```
+
+### Manual Installation
 
 1. Clone this repository
 2. Install dependencies:
